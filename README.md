@@ -18,6 +18,10 @@ Yuguo Yin<sup>1</sup>&nbsp;
 [![ArXiv](https://img.shields.io/badge/ArXiv-2501.12327-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2501.12327) [![Webpage](https://img.shields.io/badge/Webpage-VARGPTv1.1-<COLOR>.svg)](https://vargpt1-1.github.io/) [![Model](https://img.shields.io/badge/Model-HuggingFace-blue.svg)](https://huggingface.co/VARGPT-family/VARGPT_LLaVA-v1) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-red.svg)](https://huggingface.co/datasets/VARGPT-family/VARGPT_datasets) [![License](https://img.shields.io/badge/License-Apache-yellow)](https://github.com/VARGPT-family/VARGPT/blob/main/LICENSE)
 </div>
 
+
+https://github.com/user-attachments/assets/0b0a9b25-3637-437c-8396-3cc3a5950879
+
+
 ## News
 
 
