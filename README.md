@@ -164,7 +164,6 @@ python3 inference_v1_1/generation_vargpt_v1_1.py
 ```
 Or executing the following code:
 ```python
-# https://github.com/pytorch/examples/blob/main/distributed/tensor_parallelism/fsdp_tp_example.py
 import requests
 from PIL import Image
 import torch
