@@ -14,3 +14,4 @@ The task of batch image editing can be achieved through the following commands:
 ```bash
 bash run_scripts/run_eval_vargpt_v1_1_edit.sh
 ```
+Note:  You need to create and specify the path for image generation in the bash script.
