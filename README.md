@@ -15,8 +15,8 @@ Yuguo Yin<sup>1</sup>&nbsp;
 <sup>1</sup> Peking University, 
 <sup>2</sup> The Chinese University of Hong Kong 
  
-[![ArXiv](https://img.shields.io/badge/VARGPTv1.1(coming_soon)-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2501.12327)  
-[![ArXiv](https://img.shields.io/badge/ArXiv-2501.12327(VARGPT)-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2501.12327) [![Webpage](https://img.shields.io/badge/Webpage-VARGPTv1.1-<COLOR>.svg)](https://vargpt1-1.github.io/) [![Model](https://img.shields.io/badge/Model-HuggingFace-blue.svg)](https://huggingface.co/VARGPT-family/VARGPT-v1.1) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-red.svg)](https://huggingface.co/datasets/VARGPT-family/VARGPT_datasets) [![License](https://img.shields.io/badge/License-Apache-yellow)](https://github.com/VARGPT-family/VARGPT/blob/main/LICENSE)
+[![ArXiv](https://img.shields.io/badge/VARGPTv1.1(coming_soon)-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/xxxx)  
+[![ArXiv](https://img.shields.io/badge/ArXiv-2501.12327(VARGPT)-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2501.12327) [![Webpage](https://img.shields.io/badge/Webpage-VARGPTv1.1-<COLOR>.svg)](https://vargpt1-1.github.io/) [![Model(VARGPT-v1.1)](https://img.shields.io/badge/Model-HuggingFace-blue.svg)](https://huggingface.co/VARGPT-family/VARGPT-v1.1) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-red.svg)](https://huggingface.co/datasets/VARGPT-family/VARGPT_datasets) [![License](https://img.shields.io/badge/License-Apache-yellow)](https://github.com/VARGPT-family/VARGPT/blob/main/LICENSE)
 </div>
 
 
