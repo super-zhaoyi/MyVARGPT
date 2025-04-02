@@ -231,7 +231,9 @@ python3 -m accelerate.commands.launch \
     --log_samples_suffix llava-hf_mmmu \
     --output_path ./logs/
 ```
+For the `GenEval` benchmark, you can prepare the runtime environment according to [GenEval](https://github.com/djghosh13/geneval) and use prompts from [Infinity](https://github.com/FoundationVision/Infinity?tab=readme-ov-file) , then perform sampling using our batch inference code provided in `VARGPT-family-training`.
 
+For the `DPG-Bench` benchmark, prepare the runtime environment and prompts according to [ELLA](https://github.com/TencentQQGYLab/ELLA) , and execute sampling using our batch inference code provided in `VARGPT-family-training`.
 
 ## VARGPT-v1.1 Training Data Preparation
 ### Instruction Fine-tuning Dataset Download
