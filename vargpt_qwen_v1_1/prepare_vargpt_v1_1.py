@@ -69,10 +69,6 @@ def check_file_exists(directory, filename):
 
 def prepare_vargpt_qwen2vl_v1_1(save_path=vargpt_save_path, prepared_modules=["model", "tokenizer", "processor", "image_processor"], device=None):
 
-
-    from llamafactory.data.template import _register_template, StringFormatter, EmptyFormatter, get_mm_plugin
-
-    # 设置设备
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
@@ -181,20 +177,6 @@ def prepare_vargpt_qwen2vl_v1_1(save_path=vargpt_save_path, prepared_modules=["m
     AutoProcessor.register(VARGPTQwen2VLConfig, processor_class=VARGPTQwen2VLProcessor)
 
 
-    _register_template(
-        name="vargpt_qwen2_vl",
-        format_user=StringFormatter(slots=["<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n"]),
-        format_system=StringFormatter(slots=["<|im_start|>system\n{{content}}<|im_end|>\n"]),
-        format_observation=StringFormatter(slots=["<|im_start|>tool\n{{content}}<|im_end|>\n<|im_start|>assistant\n"]),
-        format_separator=EmptyFormatter(slots=["\n"]),
-        default_system="You are a helpful assistant.",
-        stop_words=["<|im_end|>"],
-        replace_eos=True,
-        replace_jinja_template=False,
-        mm_plugin=get_mm_plugin(name="vargpt_qwen2_vl", image_token="<|image_pad|>", video_token="<|video_pad|>", 
-            image_gen_token = "<|image_gen_pad|>", 
-            image_gen_token_num=2560), # 分辨率256*256 对应640个token； 512*512 对应2560个token
-    )
 
 if __name__ == "__main__":
     prepare_vargpt_qwen2vl_v1_1()
