@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/0b0a9b25-3637-437c-8396-3cc3a5950879
 
 
 
-* **[In progress]** The technical report is coming soon. Stay tuned! 
+* **[2025-04-7]** The technical report is released at https://arxiv.org/pdf/2504.02949. 
 * **[2025-04-2]** We release the more powerful unified model of **VARGPT-v1.1** (**7B+2B**) at [HF](https://huggingface.co/VARGPT-family/VARGPT-v1.1). 🔥🔥
 
 * **[2025-04-1]** We release the **training (SFT and RL) and inference code** of **VARGPT-v1.1 and VARGPT** at [VARGPT-family-training](https://github.com/VARGPT-family/VARGPT-v1.1/tree/main/VARGPT-family-training) for multimodal understanding and generation including image captioning, visual question answering (VQA), text-to-image generation and visual editing. 🔥🔥🔥🔥🔥🔥
