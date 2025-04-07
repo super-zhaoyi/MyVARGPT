@@ -15,7 +15,7 @@ Yuguo Yin<sup>1</sup>&nbsp;
 <sup>1</sup> Peking University, 
 <sup>2</sup> The Chinese University of Hong Kong 
  
-[![ArXiv](https://img.shields.io/badge/ArXiv-VARGPTv1.1(coming_soon)-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/xxxx) 
+[![ArXiv](https://img.shields.io/badge/ArXiv-2504.02949(VARGPTv1.1)-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2504.02949) 
 [![ArXiv](https://img.shields.io/badge/ArXiv-2501.12327(VARGPT)-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2501.12327) [![Webpage](https://img.shields.io/badge/Webpage-VARGPTv1.1-<COLOR>.svg)](https://vargpt1-1.github.io/) [![Model](https://img.shields.io/badge/Model-HuggingFace(VARGPTv1.1)-blue.svg)](https://huggingface.co/VARGPT-family/VARGPT-v1.1) [![Model](https://img.shields.io/badge/Model-HuggingFace(VARGPTv1.1_edit)-blue.svg)](https://huggingface.co/VARGPT-family/VARGPT-v1.1-edit) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-red.svg)](https://huggingface.co/datasets/VARGPT-family/VARGPT_datasets) [![License](https://img.shields.io/badge/License-Apache-yellow)](https://github.com/VARGPT-family/VARGPT/blob/main/LICENSE)
 </div>
 
@@ -280,7 +280,7 @@ bash run_scripts/run_eval_vargpt_v1_1.sh
 bash run_scripts/run_eval_vargpt_v1_1_edit.sh
 ```
 ### Citation
-To cite the paper and model (VARGPT-v1.1 coming soon), please use the below:
+To cite the paper and model, please use the below:
 ```
 @misc{zhuang2025vargptunifiedunderstandinggeneration,
       title={VARGPT: Unified Understanding and Generation in a Visual Autoregressive Multimodal Large Language Model}, 
@@ -290,6 +290,15 @@ To cite the paper and model (VARGPT-v1.1 coming soon), please use the below:
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2501.12327}, 
+}
+@misc{zhuang2025vargptv11improvevisualautoregressive,
+      title={VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning}, 
+      author={Xianwei Zhuang and Yuxin Xie and Yufan Deng and Dongchao Yang and Liming Liang and Jinghan Ru and Yuguo Yin and Yuexian Zou},
+      year={2025},
+      eprint={2504.02949},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.02949}, 
 }
 ```
 ### Acknowledgments
