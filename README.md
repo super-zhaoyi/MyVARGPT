@@ -28,9 +28,9 @@ https://github.com/user-attachments/assets/0b0a9b25-3637-437c-8396-3cc3a5950879
 
 
 * **[2025-04-7]** The technical report is released at https://arxiv.org/pdf/2504.02949. 
-* **[2025-04-2]** We release the more powerful unified model of **VARGPT-v1.1** (**7B+2B**) at [HF](https://huggingface.co/VARGPT-family/VARGPT-v1.1). 🔥🔥
+* **[2025-04-2]** We release the more powerful unified model of **VARGPT-v1.1** (**7B+2B**) at [HF_model](https://huggingface.co/VARGPT-family/VARGPT-v1.1) and training datasets at [HF_datasets](https://huggingface.co/datasets/VARGPT-family/VARGPT_datasets). 🔥🔥🔥🔥🔥🔥
 
-* **[2025-04-1]** We release the **training (SFT and RL) and inference code** of **VARGPT-v1.1 and VARGPT** at [VARGPT-family-training](https://github.com/VARGPT-family/VARGPT-v1.1/tree/main/VARGPT-family-training) for multimodal understanding and generation including image captioning, visual question answering (VQA), text-to-image generation and visual editing. 🔥🔥🔥🔥🔥🔥
+* **[2025-04-1]** We release the **training (SFT and RL), inference and evaluation code** of **VARGPT-v1.1 and VARGPT** at [VARGPT-family-training](https://github.com/VARGPT-family/VARGPT-v1.1/tree/main/VARGPT-family-training) for multimodal understanding and generation including image captioning, visual question answering (VQA), text-to-image generation and visual editing. 🔥🔥🔥🔥🔥🔥
 
 ## What is the new about VARGPT-v1.1?
 
@@ -58,8 +58,9 @@ VARGPT-v1.1 integrates: (1) a novel training strategy combining iterative visual
 - [X] Release the code for evaluation.
 - [X] Release the model checkpoint.
 - [X] Supporting stronger visual generation capabilities.
+- [X] Release the training datasets.
 - [X] Release the training code.
-- [ ] Release the technical report.
+- [X] Release the technical report.
 
 
 ## Hugging Face models and annotations
