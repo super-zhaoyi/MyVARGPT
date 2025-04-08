@@ -64,17 +64,17 @@ VARGPT-v1.1 integrates: (1) a novel training strategy combining iterative visual
 
 
 ## Hugging Face models and annotations
-The VARGPT-v1.1 checkpoints can be found on [Hugging Face](https://huggingface.co):
+The VARGPT-v1.1 checkpoints can be found on Hugging Face:
 * [VARGPT-family/VARGPT_v1-1](https://huggingface.co/VARGPT-family/VARGPT-v1.1)
 
-The VARGPT-v1.1-edit checkpoints for visual editing can be found on [Hugging Face](https://huggingface.co):
+The VARGPT-v1.1-edit checkpoints for visual editing can be found on Hugging Face:
 * [VARGPT-family/VARGPT_v1-1_edit](https://huggingface.co/VARGPT-family/VARGPT-v1.1-edit)
 
 
-The VARGPT checkpoints can be found on [Hugging Face](https://huggingface.co):
+The VARGPT checkpoints can be found on Hugging Face:
 * [VARGPT-family/VARGPT_LLaVA-v1](https://huggingface.co/VARGPT-family/VARGPT_LLaVA-v1)
 
-The instruction for training data can be found on [Hugging Face](https://huggingface.co):
+The instruction for training data can be found on Hugging Face:
 * [VARGPT-family/VARGPT_datasets](https://huggingface.co/datasets/VARGPT-family/VARGPT_datasets)
 
 ## Getting Started
@@ -304,3 +304,13 @@ To cite the paper and model, please use the below:
 ```
 ### Acknowledgments
 This work is heavily based on [LLaVA-1.5](https://github.com/haotian-liu/LLaVA), [VAR](https://github.com/FoundationVision/VAR), [Qwen2-VL](https://github.com/QwenLM/Qwen2.5-VL), [LLaVA-NeXT](https://llava-vl.github.io/blog/2024-01-30-llava-next), [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), [Show-o](https://github.com/showlab/Show-o), [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), [Infinity](https://github.com/FoundationVision/Infinity), [CLIP](https://github.com/openai/CLIP), [transformers-hf](https://github.com/huggingface/transformers). Thanks to all the authors for their great work.
+
+### Github Star History
+<a href="https://star-history.com/#VARGPT-family/VARGPT-v1.1&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=VARGPT-family/VARGPT-v1.1&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=VARGPT-family/VARGPT-v1.1&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=VARGPT-family/VARGPT-v1.1&type=Date" />
+ </picture>
+</a>
+
