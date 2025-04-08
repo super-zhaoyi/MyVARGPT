@@ -252,7 +252,7 @@ The following content provides detailed instructions for preparing the training 
 2. `stage2-sft`: Includes datasets for the second stage of VARGPT instruction fine-tuning:
    - `stage2-sft/llava_v1_5_mix665k`: Derived entirely from [LLaVA-1.5](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/blob/main/llava_v1_5_mix665k.json) training data.
    - `stage2-sft/llava_onevision_508k`: Sampled from the [LLaVA-onevision Dataset](https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data).
-   - `stage2-sft/50k_generation`: Sampled from our 8.3M  dataset.
+   - `stage2-sft/50k_generation`: Sampled from our 8.3M  dataset. 
 
 3. `stage3-sft`: Contains datasets for the third stage of VARGPT-v1.1 instruction fine-tuning from [JourneyDB](https://huggingface.co/datasets/JourneyDB/JourneyDB) and [laion-coco-aesthetic](https://huggingface.co/datasets/guangyil/laion-coco-aesthetic)
 
