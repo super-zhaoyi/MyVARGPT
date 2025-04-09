@@ -2,6 +2,11 @@
 import requests
 from PIL import Image
 import torch
+import sys, os
+current_file = os.path.abspath(__file__)
+parent_dir = os.path.dirname(os.path.dirname(current_file))
+sys.path.insert(0, parent_dir)
+
 from transformers import AutoProcessor, AutoTokenizer
 from vargpt_qwen_v1_1.modeling_vargpt_qwen2_vl import VARGPTQwen2VLForConditionalGeneration
 from vargpt_qwen_v1_1.prepare_vargpt_v1_1 import prepare_vargpt_qwen2vl_v1_1 
