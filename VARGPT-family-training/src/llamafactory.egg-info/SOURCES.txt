@@ -32,7 +32,6 @@ src/llamafactory/data/find_token_sequence.py
 src/llamafactory/data/formatter.py
 src/llamafactory/data/loader.py
 src/llamafactory/data/mm_plugin.py
-src/llamafactory/data/mm_plugin_before_dpo_backup.py
 src/llamafactory/data/parser.py
 src/llamafactory/data/preprocess.py
 src/llamafactory/data/template.py
